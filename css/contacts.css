@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+    list-style-type: none; 
+    outline: none; 
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    width: 100%; 
+    background: white;
+}
+.container{ 
+    width: 100%; 
+    max-width: 1600px; 
+    margin: 0 auto; 
+    padding: 0 30px; 
+} 
+.header__container{ 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+}
+.header__menu { 
+    display: flex; 
+    column-gap: 33px; 
+} 
+.header__menu > li > a { 
+    font-weight: 500; 
+    font-size: 20px; 
+    line-height: 29px; 
+    color: black; 
+    width: 60px; 
+} 
+.header__menu > a > li > button{
+    width: 155px;
+    height: 42px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #222222;
+    border-radius: 4px;
+}
+.icon__phone > img{
+    height: 19.87032127380371px;
+    width: 19.928199768066406px;
+}
+.telephone__header{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+.phone__number{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+/* main */
+.item__container{
+    width: 100%;
+    background: #E5E5E5;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.block__title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 135%;
+    color: #000000;
+}
+.block__titles{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 45px;
+}
+.block__content{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.block__p{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 165%;
+    color: #000000;
+    width: 444px;
+}
+.content__title{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 165%;
+    color: #797979;
+}
+.content__number{
+    font-weight: bolder;
+    font-size: 15px;
+    line-height: 165%;
+    color: #000000;
+    width: 156px;
+}
+.button{
+    font-weight: bolder;
+    font-size: 15px;
+    line-height: 165%;
+    color: #FF005C;
+}
+.one__block{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.item__block{
+    width: 1224px;
+    height: 244px;
+    background: #FFFFFF;
+}
+.item__title{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 135%;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 45px;
+}
+/* footer */
+.footer{
+    width: 100%;
+}
+.footer__block{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.footer__container{
+    padding-top: 200px;
+    display: flex;
+    padding-bottom: 114px;
+    justify-content: space-around;
+}
+.footer__block__title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 135%;
+    color: #000000;   
+}
+.footer__number{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 165%;
+    color: #FF005C;
+}
+.footer__number__second{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 165%;
+    color: #797979;
+}
+.footer__block__number{
+    display: flex;
+    column-gap: 45px;
+}
+.footer__subtitle{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 165%;
+    color: #000000;
+    width: 531px;
+}
+.footer__block__column__title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 135%;
+    color: #000000;
+}
+.footer__block__column__subtitle, .column__subtitle{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 135%;
+    color: #000000;
+}
+.footer__block__column{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.rside__column{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.company__footer{
+    display: flex;
+    column-gap: 121px;
+}
+.lside__column{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
